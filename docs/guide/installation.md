@@ -487,6 +487,10 @@ poetry run uvicorn lnbits.__main__:app --host 0.0.0.0 --port 5000 --ssl-keyfile 
 
 If you want to run LNbits on your Umbrel but want it to be reached through clearnet, _Uxellodunum_ made an extensive [guide](https://community.getumbrel.com/t/guide-lnbits-without-tor/604) on how to do it.
 
+## LNbits running on on Umbrel with the CloudFlare app
+
+You can also run LNbits on clearnet by using the Cloudflare Tunnel app on Umbrel by following this [guide](https://github.com/Radiokot/umbrel-cloudflared/wiki/How-to-set-up-Cloudflare-Tunnel-on-your-Umbrel) by [Radiokit](https://github.com/Radiokot) Note This requires a Cloudflare account and your own domain. 
+
 ## Docker installation
 
 To install using docker you first need to build the docker image as:
